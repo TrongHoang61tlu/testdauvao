@@ -1,0 +1,361 @@
+/* Reset CSS */
+
+/* Normalize styles for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Optional: Set a base font size and line-height */
+html {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Optional: Set a default font family */
+body {
+  font-family: circular;
+}
+
+/* Remove default list styles */
+ul,
+ol {
+  list-style: none;
+  text-align: center;
+}
+
+/* Remove underline from links */
+
+/* Remove default button styles */
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+img {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Additional resets specific to your needs can be added below */
+
+.header_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  color: #fff;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+}
+
+.logo {
+  padding-left: 50px;
+  font-weight: 300;
+  font-size: 12;
+  font-family: cursive;
+}
+
+.bar {
+  padding-right: 50px;
+}
+
+.banner {
+  height: 100vh;
+  position: relative;
+}
+
+.banner_text {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  font-weight: 700;
+}
+.about {
+  font-size: 16px;
+}
+
+.design {
+  font-size: 3em;
+  width: 150px;
+  line-height: 1.2;
+}
+
+.text-button {
+  margin-top: 20px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #000;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.todo {
+  background-color: #000;
+  height: 100vh;
+  width: 100%;
+}
+
+.todo-container {
+  width: 80%;
+  margin: auto;
+  color: #ccc;
+}
+
+.todo-title {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.todo-main {
+  display: flex;
+  justify-content: space-between;
+  line-height: 2;
+}
+
+.text-title {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+li.underline {
+  text-decoration: underline;
+}
+
+.banner-seccon {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.seccon-title{
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  width: 500px;
+  text-align: center;
+}
+
+.color-text {
+  color: orange;
+}
+
+.office{
+  width: 100%;
+  background: #000;
+}
+
+.office-header-title {
+display: flex;
+  color: #fff ;
+  width: 35%;
+  margin: auto;
+  font-size: 2rem;
+  padding: 50px;
+  align-items: center;
+}
+
+.grid-container {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-gap: 30px; 
+  color: #fff;
+}
+
+.item {
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.grid-title{
+  font-size: 1.5rem;
+  width: 400px;
+}
+
+.grid-text {
+  padding-top: 20px;
+}
+
+.arrow {
+  margin-top: 30px;
+  background-color: orange;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+i{
+ color: #fff;
+}
+
+.clients{
+  width: 100%;
+  background-color: #000;
+  padding-top: 100px;
+  height: 50vh;
+  position: relative;
+}
+
+.clients-title {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.clients-main{
+  width: 80%;
+  height: 350px;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, -50%);
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.comment{
+  width: 25%;
+  background-color: #fff;
+  height: 100%;
+}
+
+.comment-text{
+  color: #ccc;
+  margin-top: 20px;
+}
+.avatar{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+.name-client{
+  color: orange;
+  font-weight: 700;
+}
+
+.business{
+  font-weight: 700;
+}
+.comment-main{
+  width: 90%;
+  margin: auto;
+  padding-top: 30px;
+}
+.portfolio{
+
+  width: 100%;
+  background-color: pink;
+}
+
+.portfolio-title{
+  display: flex;
+  justify-content: center;
+  padding-top: 300px;
+  font-size: 2rem;
+}
+
+.grid-portfolio {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Ba cột có chiều rộng bằng nhau */
+  grid-template-rows: auto; /* Chiều cao của hàng tự động thích ứng với nội dung */
+  grid-gap: 10px; /* Khoảng cách giữa các ô */
+}
+
+.portfolio-item {
+  padding: 10px;
+}
+
+.image-container {
+  position: relative;
+  width: 90%;
+  height: 400px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 400px;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background-color: rgba(0, 0, 0, 0.6); /* Màu nền mờ */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  color: #fff; /* Màu chữ trắng */
+  padding: 20px;
+}
+
+.overlay h2 {
+  font-size: 16px;
+}
+
+.overlay p {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.wanna{
+  height: 100vh;
+  width: 100%;
+  background-color: #000;
+  position: relative;
+}
+
+.wanna-main{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+
+}
+
+.wanna-title{
+  color: coral;
+  font-size: 2rem;
+}
+
+.wanna-text{
+  color: #ccc;
+  width: 400px;
+  margin-top: 20px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+button {
+  border: 1px solid orange;
+  color: #fff;
+  padding: 20px;
+}
+
+button.actives{
+background-color: orange;
+}
